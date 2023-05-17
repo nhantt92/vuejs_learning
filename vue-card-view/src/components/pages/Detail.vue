@@ -14,8 +14,11 @@
       <div class="detail_description">
         <Stack>
           <p>
+           <span style="white-space: pre;">
             {{ list.desc }}
+            </span>
           </p>
+          <img :src="list.image_sub" :alt="list.title" class="img"/>
         </Stack>
       </div>
       <a :href="list.url" target="_blank"> {{ list.url }} </a>
@@ -145,5 +148,11 @@ article {
   top: 50%;
   right: 25%;
   transform: rotate(-45deg);
+}
+.img {
+  width: 50%;
+  height: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 </style>

@@ -22,7 +22,7 @@
               <img :src="list.image" :alt="list.title" />
             </router-link>
             <div class="card_detail">
-              <router-link :to="{}" class="filetype">[{{ list.type }}] </router-link>
+              <router-link :to="{}" class="filetype">{{ list.type }} </router-link>
             </div>
           </div>
         </Grid>
@@ -34,7 +34,7 @@
     </Cover>
     <p class="logo">
       <router-link to="/profile" class="logo-link">
-        <img src="/icon_beta.png" alt="profile Detail" />
+        <img src="/nhantt_logo_icon.png" alt="profile Detail" />
       </router-link>
     </p>
   </main>
@@ -69,11 +69,11 @@ export default {
 <style scoped>
 .logo {
   position: absolute;
-  top: 20px;
+  top: 5px;
   right: 2.5%;
   display: block;
   z-index: 10;
-  width: 50px;
+  width: 200px;
   height: 50px;
   margin: 0;
 }

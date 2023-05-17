@@ -13,7 +13,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory('/nhantt92.github.io/'),
     routes: routes,
     scrollBehavior(to, from, savedPosition) {
         if(savedPosition) {

@@ -1,117 +1,552 @@
 [
 	{
 		"id":"001",
-		"title":"title001",
-		"type":"Nuôi tôm",
-		"url":"https://vuejs.org/",
-		"image":"/img_01.jpg",
-		"desc":"Nguyễn Ngọc Khởi"
+		"title":"PH/ORP Controller",
+		"type":"Bộ đo đơn chỉ tiêu PH controller (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1513/bo-dieu-khien-va-hien-thi-phoxy-hoa-khu-phorp-controller.html",
+		"image":"/ph_PH_single_meter.jpg",
+		"image_sub":"/ph_PH_single_meter.jpg",
+		"desc":"- Design system, hardware and firmware using MCU STM32F1 as central processor.\n- Communication with GLCD via SPI use u8g2 library\n- Read sensor (PH, EC, TDS, COD, ...) via Modbus RTU master use FreeModbus library.\n- Read Temperature PT1000.\n- Return data via Modbus RTU slave use FreeModbus, and output 4-20mA.\n- Set relay trigger thresholds for pump control connection. \n- Config Menu allows user to setup and save parameters \n"
 	},
 	{
 		"id":"002",
-		"title":"title002",
-		"type":"Nuôi chó",
-		"url":"https://vuejs.org/",
-    	"image":"/img_02.jpg",
-    	"desc":"Trần Lê Thiên"
-
+		"title":"Datalogger",
+		"type":"Datalogger SmartPH (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/tin-tuc/338/he-thong-nhan-truyen-va-quan-ly-du-lieu-datalogger-tai-co-so-duoc-quy-dinh-nhu-the-nao.html",
+		"image":"/ph_datalogger.jpg",
+		"image_sub":"/ph_datalogger.jpg",
+		"desc":"- Use MCU STM ARM Cortex and Raspberry Compute Module 3/4\n- Circuit design using KICAD software.\n- Using C and Python for programing.\n- Read input: analog (current 4-20mA/0-10V) input, pulse input, input digital, RS485/RS232\n- Design user interfaces on 7inch Capacitor Touch LCD TFT 800x480\n- HTTP post data to Restful API over ethernet TCP/IP or Module SIM4G.\n- Control I/O over MQTT/Websocket\n- Connect FTP transfer document to FPT Server\n- Connect BLE read value BLE Device\n" 
 	},
 	{
 		"id":"003",
-		"title":"title003",
-		"type":"Web Design",
-		"url":"https://vuejs.org/",
-		"image":"/img_03.jpg",
-		"desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"Water sample cabinet",
+		"type":"Board điều khiển tủ lấy mẫu (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/tin-tuc/531/binh-chua-mau-nuoc-thai-smartph-ung-dung-trong-viec-luu-tru-mau-nuoc-thai.html",
+    	"image":"/ph_water_sample_controller.jpg",
+    	"image_sub":"/ph_water_sample_controller.jpg",
+    	"desc":"- Design system, hardware and firmware using STM32F1 as central processor\n- Communication with GLCD via SPI use u8g2 library\n- Communication with driver Step TB6600 via Timer Pulse and I/O control, control the rotating mechanism to pour water into the bottle.\n- Read sensor detect water and flow sensor via I/O and Count Pulse\n- Read temperature RTD PT100 with IC MAX31865 via SPI and control refrigeration compressor\n- Modbus slave communcation use FreeModbus library\n- Write program that implements the main feature and screen interface, has a setup menu\n"
 	},
 	{
 		"id":"004",
-		"title":"title004",
-		"type":"Graphic Design",
-		"url":"https://vuejs.org/",
-		"image":"/img_04.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"WebApp Monitor Station",
+		"type":"WebApp Monitor Station (PHUONG HAI SJC)",
+		"url":"https://smartph.online/",
+		"image":"/ph_webapp_monitor_sensor.jpg",
+		"image_sub":"/ph_webapp_monitor_history.jpg",
+		"desc": "- Design system use NodeJs write backend insert data from datalogger (via Serial Modbus) to database (MongoDB) setup on computer\n- insert data in time series set interval \n- Using Reactjs write webApp View the most recent data, View data history and export report csv/pdf\n- Using PM2 deploy Nodejs App run auto 24/7 get data\n- Using Apache deploy Webapp\n- Using Electronjs build package software run Desktop view data\n- NATPORT IP static monitor over internet\n"
 	},
 	{
 		"id":"005",
-		"title":"title005",
-		"type":"Photo",
-		"url":"https://vuejs.org/",
-		"image":"/img_05.jpg",
-    	"desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"Pump Metering",
+		"type":"Bơm định lượng (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1530/bom-nhu-dong-bestlab.html",
+		"image":"/ph_pump_meter.jpg",
+		"image_sub":"/ph_pump_meter.jpg",
+		"desc": "- Design system, hardware and firmware using STM32F1 as central processor\n- Circuit design and layout using KICAD software.\n- Communication scan display LED7SEG\n- Communication rotary encoder button setup speed pump\n- Communication driver DRV8825 control step PUMP\n- Communication Slave Modbus use FreeModbus library config and control Pump\n- Input Digital select direction of rotation\n- Run CNC Machine make a protective case\n"
 	},
 	{
 		"id":"006",
-		"title":"title006",
-		"type":"Text",
-		"url":"https://vuejs.org/",
-		"image":"/img_06.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"FUMEHOOD LCD TFT CAPACITOR TOUCH",
+		"type":"Board điều khiển tủ hút GreenLab(PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1526/tu-hut-khi-doc-green-bestlab.html",
+		"image":"/ph_fumehook_controller.jpg",
+		"image_sub":"/ph_fumehook_controller_cabinet.jpg",
+		"desc": "- Design system, hardware and firmware using STM32F4 as central processor\n- Communication with LCD TFT via FSMC connect to SSD1963, port to LVGL library\n- Modbus slave communcation use FreeModbus library\n- Read temperature, humidity, light, diffrential pressure sensor modules via modbus RTU and use PID algorithm to control motor speed to achieve the require airflow speed.\n- Control Light, FAN, Door\n- Connect ESP32 via modbusRTU push data to server\n "
 	},
 	{
 		"id":"007",
-		"title":"title007",
-		"type":"WebApp",
-		"url":"https://vuejs.org/",
-		"image":"/img_07.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"FUMEHOOD LCD TFT TOUCH PAD",
+		"type":"Board điều khiển tủ hút (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1476/tu-hut-khi-doc-bestlab.html",
+		"image":"/ph_fumehook_touchpad.jpg",
+		"image_sub": "/ph_fumehook_touchpad.jpg",
+		"desc": "- Design system, hardware and firmware using STM32F1 as central processor\n- Communication wiht LCD TFT via SPI (ILI9341) and use library LVGL make GUI\n- Control LAMP/FAN\n"
 	},
 	{
 		"id":"008",
-		"title":"title008",
-		"type":"ArtWork",
-		"url":"https://vuejs.org/",
-		"image":"/img_08.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"FUMEHOOD Pressure Sensor",
+		"type":"Board cảm biến chênh áp (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1526/tu-hut-khi-doc-green-bestlab.html",
+		"image":"/ph_diffrent_pressure.jpg",
+		"image_sub":"/ph_diffrent_pressure.jpg",
+		"desc": "- Design board use Holtek HT32f52253 read sensor SDP810 Sensirion and calculator return result to Modbus RTU\n"
 	},
 	{
 		"id":"009",
-		"title":"title009",
-		"type":"Web Design",
-		"url":"https://vuejs.org/",
-		"image":"/img_09.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"PT100 to Modbus",
+		"type":"Module chuyển đổi cảm biến nhiệt độ PT100 to Modbus RTU (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_temp_modbus_rtu.jpg",
+		"image_sub":"/ph_temp_modbus_rtu.jpg",
+		"desc": "- Design board use STM32F030 read temperature PT100 via MAX31865 and calculator return data result to ModbusRTU\n"
 	},
 	{
 		"id":"010",
-		"title":"title010",
-		"type":"Graphic Design",
-		"url":"https://vuejs.org/",
-		"image":"/img_10.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"Biological Safety Cabinet class2",
+		"type":"Board điều khiển tủ An toàn sinh học cấp 2 (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1481/tu-an-toan-sinh-hoc-cap-ii-a2.html",
+		"image":"/ph_atsh2_controller.jpg",	
+		"image_sub":"/ph_atsh2_controller.jpg",	
+		"desc": "- Design system, hardware and firmware using STM32F1 as central processor\n- Communication with GLCD via SPI use u8g2 library\n- Modbus slave communcation use FreeModbus library.\n- Read sensor pressure via I2C displays metrics and gives filter change warnings.\n- Control ON/OFF toggle, on/off timer device LAMP, UV, FAN, SOCKET\n- Control door pull motor opens and closes the door.\n- Design keyboard decal interface\n"
 	},
 	{
 		"id":"011",
-		"title":"title011",
-		"type":"Photo",
-		"url":"https://vuejs.org/",
-		"image":"/img_11.jpg",
-    "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"PCR Cabinet",
+		"type":"Board điều khiển tủ PCR (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1482/tu-thao-tac-pcr.html",
+		"image":"/ph_pcr_controller.jpg",
+		"image_sub":"/ph_pcr_controller.jpg",
+		"desc": "- Design system, hardware and firmware using STM32F1 as central processor\n- Communication with GLCD via SPI use u8g2 library\n- Modbus slave communcation use FreeModbus library.\n- Read sensor pressure via I2C displays metrics and gives filter change warnings.\n- Control ON/OFF toggle, on/off timer device LAMP, UV and mode AUTO\n- Control door pull motor opens and closes the door.\n- Design decal\n"
 	},
 	{
 		"id":"012",
-		"title":"title012",
-		"type":"Text",
-		"url":"https://vuejs.org/",
-		"image":"/img_12.jpg",
-   		"desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-
+		"title":"Biological Safety Cabinet class1",
+		"type":"Board điều khiển tủ cấy vi sinh (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1480/tu-cay-vi-sinh-cap-1.html",
+		"image":"/ph_tu_cay_vi_sinh.jpg",
+		"image_sub":"/ph_tu_cay_vi_sinh.jpg",
+		"desc": "- Design system, hardware and firmware using STM32F1 as central processor\n- Communication with GLCD via SPI use u8g2 library\n- Modbus slave communcation use FreeModbus library.\n- Read sensor pressure via I2C displays metrics and gives filter change warnings.\n- Control ON/OFF toggle, on/off timer device LAMP, UV, FAN and mode AUTO\n- Control door pull motor opens and closes the door.\n- Design decal\n"
 	},
 	{
-		"id":"0013",
-		"title":"title0013",
-		"type":"Nuôi tôm",
+		"id":"013",
+		"title":"Temperature logger",
+		"type":"Thiết bị logger nhiệt độ tủ lạnh hóa chất (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/",
+		"image":"/ph_node_temp_sensor.jpg",
+		"image_sub":"/ph_node_temp_sensor.jpg",
+		"desc": "- Design system, hardware and firmware using ESP32C3 as central processor\n- Using ESP_IDF programing\n- Communication with sever via WIFI\n- Logger temperature to flash internal\n- Read PT100\n- Read battery level\n- Display OLED LCD using U8G2 library\n"
+	},
+	{
+		"id":"014",
+		"title":"Air node (Temp, Humi, TVOC, CO2, PM2.5, PM10) ModbusRTU",
+		"type":"Bộ đo chất lượng không khí trong phòng thí nghiệm Modbus RTU (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_air_node_greenlab.jpg",
+		"image_sub": "/ph_air_node_greenlab.jpg",
+		"desc": "- Design system, hardware and firmware using STM32F1 as central processor\n- Read temperature, humidity, tvoc, co2, pm2.5, pm10\n- calculator and convert result meansure to ModbusRTU \n- Calibration two point for each indicator\n"
+	},
+	{
+		"id":"015",
+		"title":"IAQ Node BLE",
+		"type":"Bộ đo chất lượng không khí trong phòng thí nghiệm giao tiếp Bluetooth BLE (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_iaq_node.jpg",
+		"image_sub":"/ph_iaq_node.jpg",
+		"desc": "- Design system, hardware and firmware using ESP32 as central processor\n- Read temperature, humidity, tvoc, co2, pm2.5, pm10\n- Communication BLE\n- Communication BLE Mesh to Gateway\n- Calib two point "
+	},
+	
+	{
+		"id":"016",
+		"title":"Chemical Refrigerator Controller",
+		"type":"Board điều khiển tụ lạnh đựng hóa chất (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_chemical_refrigerator_controller.jpg",
+		"image_sub":"/ph_chemical_refrigerator_controller.jpg",
+		"desc": "- Design system, hardware and firmware using STM32 as central processor\n- Read rotary encoder adjust temperature set\n- Read sensor PT100 display temperature and control compressor\n- Read TVOC, CO2, humidity Display\n- Control FAN\n- Control brighness LED LIGHT\n"
+	},
+	{
+		"id":"017",
+		"title":"Time RTC alarm",
+		"type":"Bộ lập lịch phát âm nhạc giờ giải lao (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_time_alarm_controller.jpg",
+		"image_sub":"/ph_time_alarm_controller.jpg",
+		"desc": "- Design system, hardware and firmware using STM32 as central processor\n- Control DFPLAYER play music via UART\n- Display time and setup on GLCD\n"
+	},
+	{
+		"id":"018",
+		"title":"SCR controller",
+		"type":"Bộ điều khiển tốc độ động cơ DC dùng SCR (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_speed_motor_scr.jpg",
+		"image_sub":"/ph_speed_motor_scr.jpg",
+		"desc": "- Use STM32F1 as central processor\n- Zero detect\n- Control SCR\n- Display LED 7 Seg\n"
+	},
+	{
+		"id":"019",
+		"title":"Multi parameters",
+		"type":"Bộ đo đa chỉ tiêu (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_multi_param_meter.jpg",
+		"image_sub":"/ph_multi_param_meter.jpg",
+		"desc":"- Use MCU STM ARM Cortex and Raspberry Compute Module 3/4\n- Circuit design using KICAD software.\n- Using C and Python for programing.\n- Read sensor Modbus RTU RS485/RS232\n- Read sensor 4-20mA\n Design user interfaces on 7inch Capacitor Touch LCD TFT 800x480\n- HTTP post data to Restful API over ethernet TCP/IP.\n- Connect FTP transfer document to FPT Server\n- Connect BLE read value BLE Sensor Device\n- Output 4-20mA for each indicator\n" 
+	},
+	{
+		"id":"020",
+		"title":"Metering PUMP larger",
+		"type":"Bơm định lượng lớn (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham/1530/bom-nhu-dong-bestlab.html",
+		"image":"/ph_pump_meter_larger.jpg",
+		"image_sub":"/ph_pump_meter_larger.jpg",
+		"desc": "- Using STM32F1 connect GLCD and driver STEP TB6600 Control PUMP\n- Communication slave Modbus RTU\n"
+	},
+	{
+		"id":"021",
+		"title":"Dry Tea cabinet",
+		"type":"Tủ điều khiển hệ thống sấy trà tự động (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_dry_tea_cabinet.jpg",
+		"image_sub":"/ph_dry_tea_cabinet.jpg",
+		"desc": "- Use Raspberry Pi CM3 write programing and GUI interface with user\n- Communication with board Modbus I/O controller (STM32F1) control contactor and relay and inverter drive motor dry\n"
+	},
+	{
+		"id":"022",
+		"title":"Single parameters EC/TDS",
+		"type":"Bộ điều khiển tốc độ động cơ DC dùng SCR (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_EC_single_meter.jpg",
+		"image_sub":"/ph_EC_single_meter.jpg",
+		"desc":"- Design system, hardware and firmware using MCU STM32F1 as central processor.\n- Communication with GLCD via SPI use u8g2 library\n- Read sensor EC/TDS via Modbus RTU master use FreeModbus library.\n- Read Temperature PT1000.\n- Return data via Modbus RTU slave use FreeModbus, and output 4-20mA.\n- Set relay trigger thresholds for pump control connection. \n- Config Menu allows user to setup and save parameters \n"
+	},
+	{
+		"id":"023",
+		"title":"Single parameters EC/TDS",
+		"type":"Bộ điều khiển kéo cửa tủ hút (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_door_fumehook.jpg",
+		"image_sub":"/ph_door_fumehook.jpg",
+		"desc":"- Design system, hardware and firmware using MCU STM32F1 as central process.\n- Scan LED matrix MAX7219 display icon\n- Control motor Step pull push door fumehood\n"
+	},
+	{
+		"id":"024",
+		"title":"Chemical Refrigerator Battery",
+		"type":"Bộ pin LiFePO4-3.2V hệ 12V (4 cell) (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_battery_chemical_refrigerator.jpg",
+		"image_sub":"/ph_battery_chemical_refrigerator.jpg",
+		"desc": "- Chemical Refrigerator Battery\n- Board BMS protect\n - 50Ah- 14.6V"
+	},
+	{
+		"id":"025",
+		"title":"Solar power supply cabinet",
+		"type":"Bộ điều khiển tốc độ động cơ DC dùng SCR (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_solar_cabinet_power_supply.jpg",
+		"image_sub":"/ph_solar_cabinet_power_supply.jpg",
+		"desc": "- Uninterruptible power supply for monitoring system not using grid electricity\n- Output true sin 220VAC and 12VDC\n"
+	},
+	{
+		"id":"026",
+		"title":"Chemical refrigerator cabinet",
+		"type":"Tủ lạnh đựng hóa chất màn hình cảm ứng điện dung(PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_chemical_refrigerator_cabinet.jpg",
+		"image_sub":"/ph_chemical_refrigerator_cabinet.jpg",
+		"desc": "- LCD TFT 4.3inch capacitor touch\n- STM32F4 as central processor\n- Using LVGL7.11 library build GUI\n"
+	},
+	{
+		"id":"027",
+		"title":"Datalogger connect Temperature BLE Sensor",
+		"type":"Datalogger kết nối bluetooth lấy dữ liệu nhiệt độ (PHUONG HAI SJC)",
+		"url":"https://phuonghai.com/san-pham.html",
+		"image":"/ph_datalogger_ble_node_temp.jpg",
+		"image_sub":"/ph_datalogger_ble_node_temp.jpg",
+		"desc": "- Datalogger connect Temperature BLE Sensor\n"
+	},
+	{
+		"id":"028",
+		"title":"ATSH3",
+		"type":"Board điều khiển tủ an toàn sinh học cấp 3 (TT Việt Nga)",
 		"url":"https://vuejs.org/",
-		"image":"/img_13.jpg",
-		"desc":"Nguyễn Ngọc Khởi"
+		"image":"/vn_atsh3.jpg",
+		"image_sub":"/vn_atsh3.jpg",
+		"desc": "- Board điều khiển tủ an toàn sinh học cấp 3 (TT Việt Nga)"
+	},
+	{
+		"id":"029",
+		"title":"ATSH2",
+		"type":"Board điều khiển tủ An toàn sinh học cấp 2 - phím cơ (TT Việt Nga)",
+		"url":"https://vuejs.org/",
+		"image":"/vn_atsh2.jpg",
+		"image_sub":"/vn_atsh2.jpg",
+		"desc": "Board màn hình và xử lý tủ An toàn sinh học cấp 2 trung tâm Việt Nga\n"
+	},
+	{
+		"id":"030",
+		"title":"ATSH2",
+		"type":"Board điều khiển tủ An toàn sinh học cấp 2 - phím cảm ứng (TT Việt Nga)",
+		"url":"https://vuejs.org/",
+		"image":"/vn_atsh2_touch.jpg",
+		"image_sub":"/vn_atsh2_touch.jpg",
+		"desc": "Board xử lý và hiển thị điều khiển tủ An toàn sinh học cấp cấp 2 trung tâm Việt Nga\n"
+	},
+	{
+		"id":"031",
+		"title":"RELAY ATSH",
+		"type":"Board Relay giao tiếp modbus (TT Việt Nga)",
+		"url":"https://vuejs.org/",
+		"image":"/vn_relay_modbus_rtu_controller.jpg",
+		"image_sub":"/vn_relay_modbus_rtu_controller.jpg",
+		"desc": "- Board relay điều khiển các thiết bị điện trong tủ An toàn sinh học\n"
+	},
+	{
+		"id":"032",
+		"title":"Sensor",
+		"type":"Cảm biến hiện diện Easy Connect",
+		"url":"https://vuejs.org/",
+		"image":"/STEC_presence sensor.jpg",
+		"image_sub":"/STEC_presence sensor.jpg",
+		"desc":"- Cảm biến hiện diện phát hiện có người tự động kích hoạt thiết bị\n"
+	},
+	{
+		"id":"033",
+		"title":"STM8 Relay Modbus RTU",
+		"type":"Board I/O Relay 8 Channel Modbus RTU",
+		"url":"https://vuejs.org/",
+		"image":"/lkiot_io_modbus_rtu.jpg",
+		"image_sub":"/lkiot_io_modbus_rtu.jpg",
+		"desc":"- Board I/O Relay giao tiếp Modbus RTU phù hợp với các ứng dụng điều khiển trong công nghiệp\n"
+	},
+	{
+		"id":"034",
+		"title":"STM32 Relay Modbus RTU",
+		"type":"Board I/O Relay 16 Channel Modbus RTU/ Modbus TCP",
+		"url":"https://vuejs.org/",
+		"image":"/STEC_16ch_relay_modbus_rtu_tcp.jpg",
+		"image_sub":"/STEC_16ch_relay_modbus_rtu_tcp.jpg",
+		"desc":"- Board I/O Relay giao tiếp Modbus RTU phù hợp với các ứng dụng điều khiển trong công nghiệp\n"
+	},
+	{
+		"id":"035",
+		"title":"LED P4 FAN status",
+		"type":"Bảng LED thông báo trạng thái và thời gian quạt chạy",
+		"url":"https://vuejs.org/",
+		"image":"/lkiot_timer_fan.jpg",
+		"image_sub":"/lkiot_timer_fan.jpg",
+		"desc":"- Bảng LED giám sát quạt ứng dụng hiển thị nhiệt độ làm mát nhà xưởng, và trạng thái của quạt làm mát\n"
+	},
+	{
+		"id":"036",
+		"title":"ESP32 16 Relay",
+		"type":"Bộ điều khiển 16 relay ứng dụng tưới tiêu nông nghiệp thông minh",
+		"url":"https://vuejs.org/",
+		"image":"/STEC_esp32_16chn_relay.jpg",
+		"image_sub":"/STEC_esp32_16chn_relay.jpg",
+		"desc":"- Bộ điều khiển relay qua wifi ứng dụng trong nông nghiệp cần điều khiển nhiều van tưới tiêu\n"
+	},
+	{
+		"id":"037",
+		"title":"UPS DC 12V",
+		"type":"UPS DC 12V ứng dụng backup năng lượng DC cho thiết bị điện tử",
+		"url":"https://vuejs.org/",
+		"image":"/betech_ups_dc.jpg",
+		"image_sub":"/beetech_ups_dc_sx.jpg",
+		"desc":"- Sản xuất bộ UPS DC phục vụ nguồn điện backup cho các hệ camera, router wifi và các thiết bị sử dụng nguồn DC 12V khác\n"
+	},
+	{
+		"id":"038",
+		"title":"Raspberry LVGL",
+		"type":"Port LVGL chạy trên Raspberry CM4",
+		"url":"https://vuejs.org/",
+		"image":"/raspi_lvgl.jpg",
+		"desc":"- Port thư viện LVGL run trên Raspberry với SDL và Framebuffer để test tốc độ thực thi và sử dụng xây dựng giao diện màn hình\n"
+	},
+	{
+		"id":"039",
+		"title":"ESP32 ILI9341 LVGL",
+		"type":"Port LVGL chạy trên ESP32 với màn hình ILI9341",
+		"url":"https://vuejs.org/",
+		"image":"/esp32_ili9341_lvgl.jpg",
+		"image_sub":"/esp32_ili9341_lvgl.jpg",
+		"desc": "- Dự án màn hình giao tiếp người dùng điều khiển các tủ điện và thiết bị có kết nối wifi\n"
+	},
+	{
+		"id":"040",
+		"title":"TEMP PID CONTROLLER 310VDC",
+		"type":"Bộ điều khiển nhiệt độ PID giao tiếp Modbus RTU",
+		"url":"https://vuejs.org/",
+		"image":"/temp_controller_IBGT_310V.jpg",
+		"image_sub":"/temp_controller_IBGT_310V.jpg",
+		"desc":"- Bộ điều khiển điện trở gia nhiệt chính xác\n- Sử dụng thuật toán PID\n- Sử dụng STM32F1 làm bộ xử lý\n- Đọc cảm biến nhiệt loại K đến 800*C để điều khiển nhiệt độ set\n"
+	},
+	{
+		"id":"041",
+		"title":"LED Matrix Emoji ESP32",
+		"type":"LED Emoji ESP32",
+		"url":"https://vuejs.org/",
+		"image":"/esp32_led_matrix_emoji.jpg",
+		"image_sub":"/esp32_led_matrix_emoji1.jpg",
+		"desc":"- Dự án đèn emoji vui tính\n- Chạy ảnh GIF trên thẻ nhớ\n- Hướng phát triển giao tiếp với mobile app qua BLE\n"
+	},
+	{
+		"id":"042",
+		"title":"Triac",
+		"type":"Board Triac (Outsource)",
+		"url":"https://vuejs.org/",
+		"image":"/triac_board.jpg",
+		"image_sub":"/triac_board.jpg",
+		"desc": "- Board dùng để thay thế sữa chữa thiết bị trong nha khoa\n"
+	},
+	{
+		"id":"043",
+		"title":"Valve control",
+		"type":"Board điều khiển rót nước trong phòng khám nha khoa (Outsource)",
+		"url":"https://vuejs.org/",
+		"image":"/control_valve_water_machine.jpg",
+		"image_sub":"/control_valve_water_machine.jpg",
+		"desc":"- Board dùng cảm biến quang và nút nhấn để khi phát hiện ly nước ở gần vòi nước sẽ tự động rót nước theo khoảng thời gian cài đặt trước trên biến trở sẽ tương ứng lượng nước được rót ra\n"
+	},
+	{
+		"id":"044",
+		"title":"Wifi Sensor Node ESP32",
+		"type":"Cảm biến nhiệt độ wifi Easy Connect (STEC)",
+		"url":"https://vuejs.org/",
+		"image":"/STEC_temp_node.jpg",
+		"image_sub":"/STEC_temp_node.jpg",
+		"desc": "- Cảm biến nhiệt độ/ độ ẩm/ ánh sáng wifi kết nối với MQTT broker\n"
+	},
+	{
+		"id":"045",
+		"title":"Inverter",
+		"type":"Inverter Sine 12V (STEC)",
+		"url":"https://vuejs.org/",
+		"image":"/STEC_inverter.jpg",
+		"image_sub":"/STEC_inverter.jpg",
+		"desc":"- Inverter 12V chuyển đổi điện áp DC12V sang AC 220V sin chuẩn công suất tối đa 700W\n"
+	},
+	{
+		"id":"046",
+		"title":"RTC 7 SEG",
+		"type":"Đồng hồ hiển thị thời gian LED 7 đoạn",
+		"url":"https://vuejs.org/",
+		"image":"/lkiot_time_clock.jpg",
+		"image_sub":"/lkiot_time_clock.jpg",
+		"desc":"- Đồng hồ thời gian thực dùng để hiển thị thời gian\n"
+	},
+	{
+		"id":"047",
+		"title":"LED Matrix Temperature",
+		"type":"Bộ hiển thị nhiệt độ trên xe bus (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_temp_led_matrix.jpg",
+		"image_sub":"/dves_temp_led_matrix.jpg",
+		"desc":"- Bộ hiển thị nhiệt độ bên trong xe được gắn phía góc trên xe THACOBUS\n"
 	}
+	,
+	{
+		"id":"048",
+		"title":"STOP MAX7129",
+		"type":"Thiết bị gọi báo tài xế dừng xe (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_stop.jpg",
+		"image_sub":"/dves_stop.jpg",
+		"desc":"- Thiết bị được gắn gần tài xế, bình thường ở chế độ xem giờ, ở mỗi hàng ghế ngồi của khách được gắn 1 nút nhấn, khi khách du lịch cần dừng ở địa điểm nào để xuống du lịch thì nhấn nút call gọi tài xế dừng\n"
+	},
+	{
+		"id":"049",
+		"title":"LED Matrix DVES",
+		"type":"Bảng LED matrix hiển thị trên xe THACOBUS (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_led_thaco_bus.jpg",
+		"image_sub":"/dves_led_thaco_bus.jpg",
+		"desc":"- Bảng led hiển thị phía trước xe THACOBUS\n"
+	},
+	{
+		"id":"050",
+		"title":"LED Matrix DVES",
+		"type":"Bảng LED matrix hiển thị trên xe THACOBUS (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_led_matrix_thaco_bus.jpg",
+		"image_sub":"/dves_led_matrix_thaco_bus.jpg",
+		"desc":"- Bảng led hiển thị phía trước xe THACOBUS\n"
+	},
+	{
+		"id":"051",
+		"title":"Flame sensor",
+		"type":"Cảm biến báo cháy giao tiếp không dây (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_flame_sensor.jpg",
+		"image_sub":"/dves_flame_sensor.jpg",
+		"desc":"- Cảm biến phát hiện ngọn lửa khoảng cách trong vòng 5m, ứng dụng báo cháy trên xe\n"
+	}
+	,
+	{
+		"id":"052",
+		"title":"Touch panel",
+		"type":"Bàn phím cảm ứng điều khiển hệ thống thủy canh thông minh (GREENBOT)",
+		"url":"https://vuejs.org/",
+		"image":"/greenbot_touch_panel.jpg",
+		"image_sub":"/greenbot_touch_panel.jpg",
+		"desc":"- Bàn phím cảm ứng điện dung điều khiển manual hoạt động của hệ thủy canh thông minh\n"
+	}
+	,
+	{
+		"id":"053",
+		"title":"LED STAR",
+		"type":"Đèn led bầu trời sao trần xe bus (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/devs_star_square.jpg",
+		"image_sub":"/dves_star_led.jpg",
+		"desc":"- Đèn LED bầu trời sao ứng dụng trang trí nội thất trên xe Thacobus"
+	}
+	,
+	{
+		"id":"054",
+		"title":"CHAIR CONTROLLER",
+		"type":"Bộ điều khiển ghế trên xe giường nằm (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_chair_controller.jpg",
+		"image_sub":"/dves_chair_controller.jpg",
+		"desc":"- Bộ điều khiển ghế trên xe khách giường nằm của Thaco"
+	}
+	,
+	{
+		"id":"055",
+		"title":"AUDIO THACO",
+		"type":"Bộ phát âm thanh đa ngôn ngữ trên xe Thaco (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/dves_multi_language_sound.jpg",
+		"image_sub":"/dves_multi_language_sound.jpg",
+		"desc": "- Bộ phát âm thanh đa ngôn ngữ ứng dụng trên xe chở khách du lịch Cocobay của Thaco\n"
+	}	
+	,
+	{
+		"id":"056",
+		"title":"Greenbot",
+		"type":"Giàn thủy canh thông minh (GREENBOT)",
+		"url":"https://vuejs.org/",
+		"image":"/greenbot_gianthuycanh.jpg",
+		"image_sub":"/greenbot_gianthuycanh.jpg",
+		"desc":"- Giàn thủy canh thông minh sử dụng ống thủy canh chuyên dụng"
+	}
+	,
+	{
+		"id":"057",
+		"title":"Greenbot",
+		"type":"Board điều khiển thủy canh thông minh (GREENBOT)",
+		"url":"https://vuejs.org/",
+		"image":"/greenbot_board.jpg",
+		"image_sub":"/greenbot_board.jpg",
+		"desc":"- Board điều khiển thủy canh thông minh\n- Giao tiếp STM32F103RBT6 với ESP8266 qua UART\n- STM32 đọc cảm biến gửi data đến ESP8266 và nhận lệnh điều khiển từ ESP8266 qua UART\n- ESP8266 sử dụng giao thức smartconfig để kết nối wifi, sau khi kết nối được internet thì ESP8266 sử dụng giao thức MQTT để public và subscribe MQTT broker trên cloud Greenbot\n"
+	}
+	,
+	{
+		"id":"058",
+		"title":"HITECH",
+		"type":"PCB LED THACO (DVES)",
+		"url":"https://vuejs.org/",
+		"image":"/hitech_pcb_thaco_led.jpg",
+		"image_sub":"/hitech_pcb_thaco_led.jpg",
+		"desc": "- Board LED thiết kế và sản xuất tại Việt Nam từ A-Z"
+	}	
+	,
+	{
+		"id":"059",
+		"title":"Greenbot",
+		"type":"Triển lãm thủy canh thông minh",
+		"url":"https://vuejs.org/",
+		"image":"/greenbot_trienlam_thuycanhthongminh.jpg",
+		"image_sub":"/greenbot_trienlam_thuycanhthongminh.jpg",
+		"desc":"- Greenbot tham gia triển lãm Vietbuild"
+	},
+	{
+		"id":"060",
+		"title":"GREENBOT",
+		"type":"Thủy canh thông minh (GREENBOT)",
+		"url":"https://vuejs.org/",
+		"image":"/greenbot_gianthuycanh_old.jpg",
+		"image_sub":"/greenbot_gianthuycanh_old.jpg",
+		"desc": "- Greenbot giàn thủy canh thông minh ống nhựa PVC"
+	}	
+	
 ]
